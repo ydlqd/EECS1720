@@ -10,8 +10,8 @@ function appendGrayStyle() {
   const style = document.createElement('style')
   style.innerHTML = `
     html {
-      filter: grayscale(100%);
-      -webkit-filter: grayscale(100%);
+      filter: blur(10px);
+      -webkit-filter: blur(10px);
     }
   `
   style.setAttribute('id', styleId)
